@@ -2,6 +2,28 @@
 h2, h3, p {
 	margin: 0;
 }
+body{
+	background: url("http://www.school.obec.go.th/maeoowit/images/bg-web_02.gif");
+}
+
+.main{
+	width:960px;
+	height:550px;
+}
+.logo{
+	width:300px;
+	height:200px;
+}
+
+.color-1{
+	background: #81C628
+}
+.color-2{
+	background: #2AC476
+}
+.color-3{
+	background: #C4C42A
+}
 
 /* Layout for Style Tile*/
 section {
