@@ -3,7 +3,9 @@ h2, h3, p {
 	margin: 0;
 }
 body{
-	background: url("http://www.school.obec.go.th/maeoowit/images/bg-web_02.gif");
+	background: url(../img/congruent_pentagon.png);
+	font-family: 'Poiret One', cursive;
+	color:gray;
 }
 
 .main{
@@ -13,6 +15,24 @@ body{
 .logo{
 	width:300px;
 	height:200px;
+	margin-left: 50px;
+	border:1px solid gray;
+}
+h1{
+	font-family: 'Kristi', cursive;
+	font-size: 3em;
+	color:#EE3624;
+}
+h2{
+	font-family: 'Roboto', sans-serif;
+}
+h3{
+	font-family: 'Poiret One', cursive;
+}
+
+a{
+	text-decoration: none;
+	color: #81C628;
 }
 
 .color-1{
@@ -24,6 +44,23 @@ body{
 .color-3{
 	background: #C4C42A
 }
+.color-4{
+	background: #EE3624
+}
+.color-5{
+	background: #DDCAB3
+}
+
+.pattern-1{
+	background: url("http://www.school.obec.go.th/maeoowit/images/bg-web_02.gif");
+}
+.pattern-2{
+	background: url(../img/congruent_pentagon.png);
+}
+.pattern-3{
+	background: url(../img/soft_circle_scales.png);
+}
+
 
 /* Layout for Style Tile*/
 section {
@@ -33,10 +70,12 @@ section {
 .color-1,
 .color-2,
 .color-3,
+.color-4,
+.color-5,
 .pattern-1,
 .pattern-2,
 .pattern-3 {
-	border: 1px solid #000;
+	border: 1px solid gray;
 	float: left;
 	margin: 0 10px;
 	height: 50px;
